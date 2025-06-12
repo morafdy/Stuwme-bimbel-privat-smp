@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stuwme Bimbel</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      background-color: #fff0f5;
+      color: #555;
+    }
+    header {
+      background-color: #fc5185;
+      padding: 40px 20px;
+      text-align: center;
+      color: white;
+    }
+    nav {
+      background-color: #ffe4eb;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 20px;
+      color: #333;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #fc5185;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #fc5185;
+    }
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .hero img {
+      max-width: 100%;
+      flex: 1 1 45%;
+      border-radius: 10px;
+    }
+    .hero-text {
+      flex: 1 1 45%;
+    }
+    .btn {
+      background-color: #fc5185;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 15px;
+      transition: background-color 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #f08;
+    }
+    .tutor {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .tutor img {
+      width: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #ffe4eb;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+      font-size: 14px;
+      color: #888;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    ul li {
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Stuwme Bimbel</h1>
+    <p>Les Privat Matematika untuk SMP</p>
+  </header>
+
+  <nav>
+    <a href="#home">Beranda</a>
+    <a href="#tentang">Tentang</a>
+    <a href="#program">Program</a>
+    <a href="#harga">Harga</a>
+    <a href="#tutor">Tutor</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <section id="home">
+    <div class="hero">
+      <div class="hero-text">
+        <h2>Belajar Matematika Jadi Menyenangkan!</h2>
+        <p>Kami menyediakan les privat Matematika untuk jenjang SMP dengan pendekatan yang santai, menyenangkan, dan tentunya mudah dipahami.</p>
+        <a href="#kontak" class="btn">Gabung Sekarang</a>
+      </div>
+      <img src="math.jpg" alt="Belajar Matematika">
+    </div>
+  </section>
+
+  <section id="tentang">
+    <h2>Tentang Stuwme Bimbel</h2>
+    <p>Stuwme (Study with me) Bimbel adalah layanan les privat Matematika yang dirancang khusus untuk siswa SMP. Kami percaya bahwa setiap anak bisa paham Matematika dengan cara belajar yang tepat dan menyenangkan!</p>
+  </section>
+
+  <section id="program">
+    <h2>Program Kami</h2>
+    <p>Kami menyediakan:</p>
+    <ul>
+      <li>Materi sesuai kurikulum SMP</li>
+      <li>Pendekatan interaktif dan menyenangkan</li>
+      <li>Latihan soal dan pembahasan</li>
+      <li>Jadwal fleksibel sesuai kebutuhan</li>
+    </ul>
+  </section>
+
+  <section id="harga">
+    <h2>Promo & Harga</h2>
+    <p>Biaya terjangkau, hasil maksimal! 📚</p>
+    <ul>
+      <li><strong>Rp40.000/sesi</strong> (90 menit)</li>
+      <li><strong>8 Sesi:</strong> Rp300.000 <em>(hemat Rp20.000)</em></li>
+      <li><strong>12 Sesi:</strong> Rp440.000 <em>(hemat Rp40.000)</em></li>
+    </ul>
+    <p>🎁 Bonus: Modul latihan eksklusif untuk semua paket!</p>
+  </section>
+
+  <section id="tutor" class="tutor">
+    <h2>Tutor Kami</h2>
+    <img src="foto-tutor.jpg" alt="Kak Mora">
+    <p><strong>Kak Mora</strong><br>Pengajar Matematika dengan pendekatan sabar, kreatif, dan asyik!</p>
+  </section>
+
+  <section id="kontak">
+    <h2>Kontak</h2>
+    <p>Yuk, mulai perjalanan belajarmu sekarang!<br>Email: stuwsbimbel@gmail.com<br>Alamat: Jl. Belajar Ceria No. 2</p>
+    <p>Siap gabung? Klik tombol di bawah untuk langsung chat via WhatsApp!</p>
+    <a class="btn" href="https://wa.me/6285261460996?text=Halo%20Stuws%20Bimbel,%20saya%20mau%20daftar%20:)" target="_blank">Hubungi via WhatsApp</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Stuwe (Study with me) Bimbel. Website by Mora 💖
+  </footer>
+</body>
+</html>
